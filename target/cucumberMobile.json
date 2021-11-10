@@ -1,0 +1,155 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-08T05:58:12.381Z",
+        "line": 3,
+        "name": "Search on google page in order to get error",
+        "description": "",
+        "id": "google-search-error-(mobile);search-on-google-page-in-order-to-get-error",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 85744000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Browser is open",
+            "match": {
+              "location": "step_definations.mobile_stepdef.StepDefMobile.browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7592000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "url is \"https://www.google.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.google.com/\"",
+                  "offset": 7
+                }
+              ],
+              "location": "step_definations.mobile_stepdef.StepDefMobile.url_is(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.JavascriptException: javascript error: Unexpected token \u0027)\u0027\n  (Session info: chrome\u003d83.0.4103.106)\n  (Driver info: chromedriver\u003d83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}),platform\u003dWindows NT 10.0.19042 x86_64)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-EQBD8BES\u0027, ip: \u0027192.168.43.38\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_241\u0027\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, automationName: UiAutomator2, browserName: chrome, databaseEnabled: false, desired: {automationName: UiAutomator2, browserName: chrome, deviceName: pixel_4, goog:chromeOptions: {args: [], extensions: [], w3c: false}, newCommandTimeout: 60, platformName: android, platformVersion: 11.0, udid: emulator-5554}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, goog:chromeOptions: {args: [], extensions: [], w3c: false}, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 135, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 1842, left: 0, top: 135, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 70477a57-2ccb-4cbb-8b67-47c44936213c\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)\r\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)\r\n\tat step_definations.mobile_stepdef.StepDefMobile.generate_error_in_scenario(StepDefMobile.java:38)\r\n\tat ✽.Generate error in scenario(file:///C:/Users/HP/IdeaProjects/DemoCucuberFramework/./src/test/resources/mobile/ErrorSearch.feature:7)\r\n",
+              "duration": 92000000,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "Generate error in scenario",
+            "match": {
+              "location": "step_definations.mobile_stepdef.StepDefMobile.generate_error_in_scenario()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Validate the scenario",
+            "match": {
+              "location": "step_definations.mobile_stepdef.StepDefMobile.validate_the_scenario()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Google Search Error (MOBILE)",
+    "description": "",
+    "id": "google-search-error-(mobile)",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/mobile/ErrorSearch.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-08T05:59:46.299Z",
+        "line": 3,
+        "name": "Search on google page",
+        "description": "",
+        "id": "google-search-(mobile);search-on-google-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 95000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Browser is open",
+            "match": {
+              "location": "step_definations.mobile_stepdef.StepDefMobile.browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3475000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "url is \"https://www.google.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.google.com/\"",
+                  "offset": 7
+                }
+              ],
+              "location": "step_definations.mobile_stepdef.StepDefMobile.url_is(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11490000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Type automation in search box and hit enter",
+            "match": {
+              "location": "step_definations.mobile_stepdef.StepDefMobile.type_automation_in_search_box_and_hit_enter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1105000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Validate the scenario",
+            "match": {
+              "location": "step_definations.mobile_stepdef.StepDefMobile.validate_the_scenario()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Google Search (MOBILE)",
+    "description": "",
+    "id": "google-search-(mobile)",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/mobile/GoogleSearch.feature",
+    "tags": []
+  }
+]

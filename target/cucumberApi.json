@@ -1,0 +1,152 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-28T04:53:26.785Z",
+        "line": 3,
+        "name": "User is able to log in with OTP",
+        "description": "",
+        "id": "this-feature-will-send-otp-to-the-registered-mobile-(api);user-is-able-to-log-in-with-otp",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 59000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The body is defined",
+            "match": {
+              "location": "step_definations.api_stepdef.StepDefApi.theBodyIsDefined()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 621000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "URL is specified",
+            "match": {
+              "location": "step_definations.api_stepdef.StepDefApi.urlIsSpecified()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Base path is defined",
+            "match": {
+              "location": "step_definations.api_stepdef.StepDefApi.basePathIsDefined()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3796000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Validate the response for patient login",
+            "match": {
+              "location": "step_definations.api_stepdef.StepDefApi.validateTheResponseForPatientLogin()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This feature will send OTP to the registered mobile (API)",
+    "description": "",
+    "id": "this-feature-will-send-otp-to-the-registered-mobile-(api)",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/api/LoginPatient.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-28T04:53:31.438Z",
+        "line": 10,
+        "name": "After providing the mobile number user get otp",
+        "description": "",
+        "id": "this-feature-will-send-otp-to-the-registered-mobile-(api);after-providing-the-mobile-number-user-get-otp;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The body",
+            "match": {
+              "location": "step_definations.api_stepdef.StepDefApi.theBody()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "URL is \"https://api-dev.c2cassets.com/public\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://api-dev.c2cassets.com/public\"",
+                  "offset": 7
+                }
+              ],
+              "location": "step_definations.api_stepdef.StepDefApi.urlIs(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Path is \"/send-otp\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/send-otp\"",
+                  "offset": 8
+                }
+              ],
+              "location": "step_definations.api_stepdef.StepDefApi.pathIs(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4666000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Validate the response",
+            "match": {
+              "location": "step_definations.api_stepdef.StepDefApi.validateTheResponse()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This feature will send OTP to the registered mobile (API)",
+    "description": "",
+    "id": "this-feature-will-send-otp-to-the-registered-mobile-(api)",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/api/SendOTP_POST.feature",
+    "tags": []
+  }
+]

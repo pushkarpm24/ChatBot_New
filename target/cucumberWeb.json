@@ -1,0 +1,3691 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-08T06:43:06.099Z",
+        "line": 3,
+        "name": "Check The Chat Bot Flow",
+        "description": "",
+        "id": "chat-bot;check-the-chat-bot-flow",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "step_definations.web_stepdef.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 40000000,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "User Launch \"chrome\" Browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 12
+                }
+              ],
+              "location": "step_definations.web_stepdef.StepDefWeb.user_Launch_Browser(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 3000000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 36000000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User Opens URL \"https://bot.hitee.chat/botname/hola\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://bot.hitee.chat/botname/hola\"",
+                  "offset": 15
+                }
+              ],
+              "location": "step_definations.web_stepdef.StepDefWeb.user_Opens_URL(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Click On Bot Icon",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_On_Bot_Icon()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Validate The More Option Buttons",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.validate_The_More_Option_Buttons()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Validate The Language Selection Options",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.validate_The_Language_Selection_Options()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Validate The Greeting Text With Following Buttons",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.validate_The_Greeting_Text_With_Following_Buttons()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Validate Text Field With Microphone Symbol And Send Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.validate_Text_Field_With_Microphone_Symbol_And_Send_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Click On Know More About Policies And Validate bot dialog with the Carousels, Get quote and No thanks buttons",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_On_Know_More_About_Policies_And_Validate_bot_dialog_with_the_Carousels_Get_quote_and_No_thanks_buttons()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Validate Text Field With Microphone Symbol And Send Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.validate_Text_Field_With_Microphone_Symbol_And_Send_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Click On No Thanks Button And Validate bot dialog along with Main Menu and Rate your experience buttons",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_On_No_Thanks_Button_And_Validate_bot_dialog_along_with_Main_Menu_and_Rate_your_experience_buttons()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Validate Text Field With Microphone Symbol And Send Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.validate_Text_Field_With_Microphone_Symbol_And_Send_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Click On Rate Your Experience Button And Validate bot dialog and Emoji along with text field and submit button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_On_Rate_Your_Experience_Button_And_Validate_bot_dialog_and_Emoji_along_with_text_field_and_submit_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "Click On Any Emoji As Per Experience",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_On_Any_Emoji_As_Per_Experience()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Click On Submit Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_On_Submit_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Validate Bot Dialog According To The Emoji",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.validate_Bot_Dialog_According_To_The_Emoji()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Validate The More Option Buttons",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.validate_The_More_Option_Buttons()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "Click On Home Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_On_Home_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "Validate The Greeting Text With Following Buttons",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.validate_The_Greeting_Text_With_Following_Buttons()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "Validate Text Field With Microphone Symbol And Send Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.validate_Text_Field_With_Microphone_Symbol_And_Send_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "Click On Know More About Policies",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_On_Know_More_About_Policies()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "Click On Get Quote Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_On_Get_Quote_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "Validate Bot Dialog And Product Name Dropdown",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.validate_Bot_Dialog_And_Product_Name_Dropdown()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "Click On Product Name Dropdown",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_On_Product_Name_Dropdown()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "Click On Any Required Product Name Radio Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_On_Any_Required_Product_Name_Radio_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "Click On Product Type Dropdown",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_On_Product_Type_Dropdown()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "Click On Any Required Product Type Radio Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_On_Any_Required_Product_Type_Radio_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "Click On Submit Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_On_Submit_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "Validate Bot Dialog With Slider By Default INR 1 Lakhs Should Be Selected, Tenure Required Dropdown And Submit Button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 47
+                }
+              ],
+              "location": "step_definations.web_stepdef.StepDefWeb.Validate_bot_Dialog_With_Slider_By_Default_INR_Lakhs_Should_Be_Selected_Tenure_Required_Dropdown_And_Submit_Button(java.lang.Integer)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "Drag The Slider According To The Required Insured Sum",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.drag_The_Slider_According_To_The_Required_Insured_Sum()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "Click on Tenure Required drop down",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_on_Tenure_Required_drop_down()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "Select required tenure year",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.select_required_tenure_year()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "Click On Submit Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_On_Submit_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "Validate The Bot Message Eldest member age Members slider Yes and No radio buttons",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.validate_The_Bot_Message_Eldest_member_age_Members_slider_Yes_and_No_radio_buttons()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "Enter \"aa\" character in member age And validate \"Please enter only numbers\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"aa\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"Please enter only numbers\"",
+                  "offset": 48
+                }
+              ],
+              "location": "step_definations.web_stepdef.StepDefWeb.enter_character_in_member_age_And_validate_message(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "Enter \"$$\" Special characters in Member age And validate \"Please enter only numbers\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"$$\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"Please enter only numbers\"",
+                  "offset": 57
+                }
+              ],
+              "location": "step_definations.web_stepdef.StepDefWeb.enter_Special_characters_in_Member_age_And_validate_message(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "Enter \"0\" Zeros in member age And validate \"Please maintain exactly 2 characters\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"Please maintain exactly 2 characters\"",
+                  "offset": 43
+                }
+              ],
+              "location": "step_definations.web_stepdef.StepDefWeb.enter_Zeros_in_member_age_And_validate_message(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "Enter one digit and one alphabet \"1A\" in members age And validate \"Please enter only numbers\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1A\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"Please enter only numbers\"",
+                  "offset": 66
+                }
+              ],
+              "location": "step_definations.web_stepdef.StepDefWeb.enter_one_digit_and_one_alphabet_in_members_age_And_validate_message(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "Enter one digit and one special character \"1*\" in members age And validate \"Please enter only numbers\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1*\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"Please enter only numbers\"",
+                  "offset": 75
+                }
+              ],
+              "location": "step_definations.web_stepdef.StepDefWeb.enter_one_digit_and_one_special_character_in_members_age_And_validate_message(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "Enter age value with \"\u003c111\u003e\" three digits in member age",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003c111\u003e\"",
+                  "offset": 21
+                }
+              ],
+              "location": "step_definations.web_stepdef.StepDefWeb.enter_age_value_with_three_digits_in_member_age(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "Drag Slider as per the members present",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.drag_Slider_as_per_the_members_present()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "Click any radio button for the ongoing medical conditions",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_any_radio_button_for_the_ongoing_medical_conditions()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "Click On Submit Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_On_Submit_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "Validate submitted details greeting message for buying a product with the quoted amount and connect to agent button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.validate_submitted_details_greeting_message_for_buying_a_product_with_the_quoted_amount_and_connect_to_agent_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "Validate Text Field With Microphone Symbol And Send Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.validate_Text_Field_With_Microphone_Symbol_And_Send_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 49,
+            "name": "Click on connect with agent button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_on_connect_with_agent_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 50,
+            "name": "Click on Chat with our agent",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_on_Chat_with_our_agent()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 51,
+            "name": "Validate The More Option Buttons",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.validate_The_More_Option_Buttons()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 52,
+            "name": "Click On Home Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_On_Home_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 53,
+            "name": "Validate The Greeting Text With Following Buttons",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.validate_The_Greeting_Text_With_Following_Buttons()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 54,
+            "name": "Validate Text Field With Microphone Symbol And Send Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.validate_Text_Field_With_Microphone_Symbol_And_Send_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 56,
+            "name": "Click On Know More About Policies",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_On_Know_More_About_Policies()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 57,
+            "name": "Click On Get Quote Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_On_Get_Quote_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 58,
+            "name": "Validate Bot Dialog And Product Name Dropdown",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.validate_Bot_Dialog_And_Product_Name_Dropdown()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 59,
+            "name": "Click On Product Name Dropdown",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_On_Product_Name_Dropdown()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "Click On Any Required Product Name Radio Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_On_Any_Required_Product_Name_Radio_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "Click On Product Type Dropdown",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_On_Product_Type_Dropdown()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 62,
+            "name": "Click On Any Required Product Type Radio Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_On_Any_Required_Product_Type_Radio_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 63,
+            "name": "Click On Submit Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_On_Submit_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 64,
+            "name": "Validate Bot Dialog With Slider By Default INR 1 Lakhs Should Be Selected, Tenure Required Dropdown And Submit Button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 47
+                }
+              ],
+              "location": "step_definations.web_stepdef.StepDefWeb.Validate_bot_Dialog_With_Slider_By_Default_INR_Lakhs_Should_Be_Selected_Tenure_Required_Dropdown_And_Submit_Button(java.lang.Integer)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 65,
+            "name": "Drag The Slider According To The Required Insured Sum",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.drag_The_Slider_According_To_The_Required_Insured_Sum()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 66,
+            "name": "Click on Tenure Required drop down",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_on_Tenure_Required_drop_down()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 67,
+            "name": "Select required tenure year",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.select_required_tenure_year()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 68,
+            "name": "Click On Submit Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_On_Submit_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 69,
+            "name": "Validate The Bot Message Eldest member age Members slider Yes and No radio buttons",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.validate_The_Bot_Message_Eldest_member_age_Members_slider_Yes_and_No_radio_buttons()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 70,
+            "name": "Enter age value with \"\u003c111\u003e\" three digits in member age",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003c111\u003e\"",
+                  "offset": 21
+                }
+              ],
+              "location": "step_definations.web_stepdef.StepDefWeb.enter_age_value_with_three_digits_in_member_age(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 71,
+            "name": "Drag Slider as per the members present",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.drag_Slider_as_per_the_members_present()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 72,
+            "name": "Click any radio button for the ongoing medical conditions",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_any_radio_button_for_the_ongoing_medical_conditions()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 73,
+            "name": "Click On Submit Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_On_Submit_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 74,
+            "name": "Validate submitted details greeting message for buying a product with the quoted amount and connect to agent button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.validate_submitted_details_greeting_message_for_buying_a_product_with_the_quoted_amount_and_connect_to_agent_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 75,
+            "name": "Validate Text Field With Microphone Symbol And Send Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.validate_Text_Field_With_Microphone_Symbol_And_Send_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 76,
+            "name": "Click on connect with agent button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_on_connect_with_agent_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 77,
+            "name": "Click on video appoint button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_on_video_appoint_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 78,
+            "name": "Click on connect button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_on_connect_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 79,
+            "name": "Click on No button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_on_No_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 80,
+            "name": "Click on connect button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_on_connect_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 81,
+            "name": "Click on Yes btton",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_on_Yes_btton()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 82,
+            "name": "Click on close icon",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_on_close_icon()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 83,
+            "name": "Click On Main Menu",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.Click_On_Main_Menu()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 84,
+            "name": "Validate The Greeting Text With Following Buttons",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.validate_The_Greeting_Text_With_Following_Buttons()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 85,
+            "name": "Validate Text Field With Microphone Symbol And Send Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.validate_Text_Field_With_Microphone_Symbol_And_Send_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 87,
+            "name": "Click On Know More About Policies",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_On_Know_More_About_Policies()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 88,
+            "name": "Click On Get Quote Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_On_Get_Quote_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 89,
+            "name": "Validate Bot Dialog And Product Name Dropdown",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.validate_Bot_Dialog_And_Product_Name_Dropdown()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 90,
+            "name": "Click On Product Name Dropdown",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_On_Product_Name_Dropdown()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 91,
+            "name": "Click On Any Required Product Name Radio Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_On_Any_Required_Product_Name_Radio_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 92,
+            "name": "Click On Product Type Dropdown",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_On_Product_Type_Dropdown()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 93,
+            "name": "Click On Any Required Product Type Radio Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_On_Any_Required_Product_Type_Radio_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 94,
+            "name": "Click On Submit Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_On_Submit_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 96,
+            "name": "Validate The Autopopulated Values Of sum insured and policy period Screen",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.validate_The_Autopopulated_Values_Of_sum_insured_and_policy_period_Screen()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 100,
+            "name": "Click On Submit Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_On_Submit_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 101,
+            "name": "Validate The Bot Message Eldest member age Members slider Yes and No radio buttons",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.validate_The_Bot_Message_Eldest_member_age_Members_slider_Yes_and_No_radio_buttons()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 102,
+            "name": "Validate All the Autopopulated Fields of additional details Screen",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.validate_All_the_Autopopulated_Fields_of_additional_details_Screen()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 106,
+            "name": "Click On Submit Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_On_Submit_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 107,
+            "name": "Validate submitted details greeting message for buying a product with the quoted amount and connect to agent button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.validate_submitted_details_greeting_message_for_buying_a_product_with_the_quoted_amount_and_connect_to_agent_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 108,
+            "name": "Validate Text Field With Microphone Symbol And Send Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.validate_Text_Field_With_Microphone_Symbol_And_Send_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 109,
+            "name": "Click on connect with agent button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_on_connect_with_agent_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 110,
+            "name": "Click on Book appointment button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_on_Book_appointment_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 111,
+            "name": "Provide \"Pushkar\" in name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pushkar\"",
+                  "offset": 8
+                }
+              ],
+              "location": "step_definations.web_stepdef.StepDefWeb.provide_in_name_field(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 112,
+            "name": "Provide \"7768076656\" phone number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"7768076656\"",
+                  "offset": 8
+                }
+              ],
+              "location": "step_definations.web_stepdef.StepDefWeb.provide_any_phone_number(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 113,
+            "name": "Provide \"pushkar@jsadh.ksjf\" valid email id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pushkar@jsadh.ksjf\"",
+                  "offset": 8
+                }
+              ],
+              "location": "step_definations.web_stepdef.StepDefWeb.provide_any_valid_email_id(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 114,
+            "name": "Click On Submit Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_On_Submit_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 115,
+            "name": "Click on calendar icon",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_on_calendar_icon()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 116,
+            "name": "Select required date and time",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.select_required_date_and_time()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 117,
+            "name": "Click On Submit Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_On_Submit_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 118,
+            "name": "Click On Main Menu",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.Click_On_Main_Menu()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 119,
+            "name": "Validate The Greeting Text With Following Buttons",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.validate_The_Greeting_Text_With_Following_Buttons()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 120,
+            "name": "Validate Text Field With Microphone Symbol And Send Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.validate_Text_Field_With_Microphone_Symbol_And_Send_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 121,
+            "name": "Click on Buy Insurance button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_on_Buy_Insurance_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 125,
+            "name": "Click on Validate Mobile Number button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_on_Validate_Mobile_Number_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 126,
+            "name": "Enter received OTP",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.enter_received_OTP()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 127,
+            "name": "Click on validate button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_on_validate_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 128,
+            "name": "Click on Health insurance button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_on_Health_insurance_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 129,
+            "name": "Click on Insurance type drop down",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_on_Insurance_type_drop_down()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 130,
+            "name": "Select required Insurance type",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.select_required_Insurance_type()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 131,
+            "name": "Click On Submit Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_On_Submit_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 132,
+            "name": "Click on Self",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_on_Self()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 133,
+            "name": "Click on scrolling icon",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_on_scrolling_icon()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 134,
+            "name": "Select required product and click on Add button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.select_required_product_and_click_on_Add_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 135,
+            "name": "Click On Submit Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_On_Submit_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 136,
+            "name": "Click on pay button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_on_pay_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 143,
+            "name": "Validate The More Option Buttons",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.validate_The_More_Option_Buttons()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 144,
+            "name": "Click On Home Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_On_Home_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 145,
+            "name": "Validate The Greeting Text With Following Buttons",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.validate_The_Greeting_Text_With_Following_Buttons()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 146,
+            "name": "Validate Text Field With Microphone Symbol And Send Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.validate_Text_Field_With_Microphone_Symbol_And_Send_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 147,
+            "name": "Click on Renew policy button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_on_Renew_policy_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 148,
+            "name": "Provide \"Pushkar\" in name field for Renew Policy",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pushkar\"",
+                  "offset": 8
+                }
+              ],
+              "location": "step_definations.web_stepdef.StepDefWeb.provide_in_name_field_for_Renew_Policy(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 149,
+            "name": "Provide \"pushkar@jsadh.ksjf\" valid email id for Renew Policy",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pushkar@jsadh.ksjf\"",
+                  "offset": 8
+                }
+              ],
+              "location": "step_definations.web_stepdef.StepDefWeb.provide_valid_email_id_for_Renew_Policy(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 150,
+            "name": "Provide \"7768076656\" phone number for Renew Policy",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"7768076656\"",
+                  "offset": 8
+                }
+              ],
+              "location": "step_definations.web_stepdef.StepDefWeb.provide_phone_number_for_Renew_Policy(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 151,
+            "name": "Click on Validate Mobile Number button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_on_Validate_Mobile_Number_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 152,
+            "name": "Enter received OTP",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.enter_received_OTP()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 154,
+            "name": "Validate Text Field With Microphone Symbol And Send Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.validate_Text_Field_With_Microphone_Symbol_And_Send_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 155,
+            "name": "Click on Yes button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_on_Yes_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 156,
+            "name": "Select required product and click on Add button For Renew",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.select_required_product_and_click_on_Add_button_For_Renew()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 157,
+            "name": "Click On Submit Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_On_Submit_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 159,
+            "name": "Validate The More Option Buttons",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.validate_The_More_Option_Buttons()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 160,
+            "name": "Click On Home Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_On_Home_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 161,
+            "name": "Validate The Greeting Text With Following Buttons",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.validate_The_Greeting_Text_With_Following_Buttons()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 162,
+            "name": "Validate Text Field With Microphone Symbol And Send Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.validate_Text_Field_With_Microphone_Symbol_And_Send_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 163,
+            "name": "Click on Check claim status",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_on_Check_claim_status()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 165,
+            "name": "Enter invalid claim id with characters \"ABCD\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ABCD\"",
+                  "offset": 39
+                }
+              ],
+              "location": "step_definations.web_stepdef.StepDefWeb.enter_invalid_claim_id_with_characters(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 166,
+            "name": "Enter invalid claim id \"20003112\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"20003112\"",
+                  "offset": 23
+                }
+              ],
+              "location": "step_definations.web_stepdef.StepDefWeb.enter_invalid_claim_id(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 167,
+            "name": "Click on No button in claim status",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_on_No_button_in_claim_status()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 168,
+            "name": "Click On Main Menu",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.Click_On_Main_Menu()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 169,
+            "name": "Validate The Greeting Text With Following Buttons",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.validate_The_Greeting_Text_With_Following_Buttons()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 170,
+            "name": "Validate Text Field With Microphone Symbol And Send Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.validate_Text_Field_With_Microphone_Symbol_And_Send_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 171,
+            "name": "Click on Check claim status",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_on_Check_claim_status()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 172,
+            "name": "Enter invalid claim id \"20003115\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"20003115\"",
+                  "offset": 23
+                }
+              ],
+              "location": "step_definations.web_stepdef.StepDefWeb.enter_invalid_claim_id(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 173,
+            "name": "Click on Yes button for upload file",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_on_Yes_button_for_upload_file()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "skipped"
+            },
+            "line": 174,
+            "name": "Click on Upload Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_on_Upload_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "skipped"
+            },
+            "line": 175,
+            "name": "Click on cancel",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_on_cancel()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 176,
+            "name": "Click on Upload Button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_on_Upload_Button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 177,
+            "name": "Click on upload button to upload the file",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_on_upload_button_to_upload_the_file()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "skipped"
+            },
+            "line": 178,
+            "name": "Click on select file",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_on_select_file()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 179,
+            "name": "Select any Image file and click on upload",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.select_any_Image_file_and_click_on_upload()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 180,
+            "name": "Click on Delete icon on the uploaded file",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_on_Delete_icon_on_the_uploaded_file()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 181,
+            "name": "Click on No button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_on_No_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 182,
+            "name": "Click on Delete icon on the uploaded file",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_on_Delete_icon_on_the_uploaded_file()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 183,
+            "name": "Click on Yes",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_on_Yes()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 184,
+            "name": "Click on select file",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_on_select_file()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 185,
+            "name": "Select any document (Word or excel) file and click on upload",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.select_any_document_Word_or_excel_file_and_click_on_upload()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 186,
+            "name": "Click on select file",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_on_select_file()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 187,
+            "name": "Click on any PDF document and click on upload button",
+            "match": {
+              "location": "step_definations.web_stepdef.StepDefWeb.click_on_any_PDF_document_and_click_on_upload_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "step_definations.web_stepdef.Hooks.tearDownSteps(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Chat Bot",
+    "description": "",
+    "id": "chat-bot",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/web/ChatBot.feature",
+    "tags": []
+  }
+]
