@@ -45,9 +45,7 @@ public class BrowserFactory {
                 driver = new EdgeDriver();
             }
 
-//            Thread.sleep(500);
-//            driver.manage().window().maximize();
-//            driver.manage().deleteAllCookies();
+
         } catch (Exception e) {
             e.printStackTrace();
             return driver;
